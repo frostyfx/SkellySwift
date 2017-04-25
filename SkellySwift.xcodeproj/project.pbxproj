@@ -16,6 +16,9 @@
 		B14B88531EAFDA8400322DF4 /* SkellyArt in Resources */ = {isa = PBXBuildFile; fileRef = B14B88521EAFDA8400322DF4 /* SkellyArt */; };
 		B14B885B1EAFDB9C00322DF4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B885A1EAFDB9C00322DF4 /* HomeViewController.swift */; };
 		B1FC50C61EAFF69400899E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FC50C51EAFF69400899E90 /* Assets.xcassets */; };
+		B1FC50C81EB0024A00899E90 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FC50C71EB0024A00899E90 /* TableViewController.swift */; };
+		B1FC50CA1EB004F400899E90 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FC50C91EB004F400899E90 /* FormViewController.swift */; };
+		B1FC50CC1EB0053F00899E90 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FC50CB1EB0053F00899E90 /* ScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		B14B88521EAFDA8400322DF4 /* SkellyArt */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SkellyArt; path = ../../SkellyArt; sourceTree = "<group>"; };
 		B14B885A1EAFDB9C00322DF4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B1FC50C51EAFF69400899E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1FC50C71EB0024A00899E90 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B1FC50C91EB004F400899E90 /* FormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		B1FC50CB1EB0053F00899E90 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,7 @@
 		B14B88571EAFDB6400322DF4 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				B1FC50C71EB0024A00899E90 /* TableViewController.swift */,
 			);
 			name = TableView;
 			sourceTree = "<group>";
@@ -160,6 +167,7 @@
 		B14B88581EAFDB6A00322DF4 /* FormView */ = {
 			isa = PBXGroup;
 			children = (
+				B1FC50C91EB004F400899E90 /* FormViewController.swift */,
 			);
 			name = FormView;
 			sourceTree = "<group>";
@@ -167,6 +175,7 @@
 		B14B88591EAFDB6F00322DF4 /* ScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				B1FC50CB1EB0053F00899E90 /* ScrollViewController.swift */,
 			);
 			name = ScrollView;
 			sourceTree = "<group>";
@@ -307,8 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B144791F1E3181200052ABB2 /* ViewController.swift in Sources */,
+				B1FC50CC1EB0053F00899E90 /* ScrollViewController.swift in Sources */,
 				B144791D1E3181200052ABB2 /* AppDelegate.swift in Sources */,
 				B14B885B1EAFDB9C00322DF4 /* HomeViewController.swift in Sources */,
+				B1FC50CA1EB004F400899E90 /* FormViewController.swift in Sources */,
+				B1FC50C81EB0024A00899E90 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
