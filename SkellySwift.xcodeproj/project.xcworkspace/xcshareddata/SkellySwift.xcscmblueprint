@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "833E8B9B11223C3EC7118D598E9554BC2DCFA1A0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D3257576B381D961121FA72950E1A0BB36821169" : 9223372036854775807,
+    "833E8B9B11223C3EC7118D598E9554BC2DCFA1A0" : 9223372036854775807,
+    "FFF1A923B495FB0B718EC072CBBB41F6B5494FAB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1443C085-9E96-4B94-8113-3B8C4C939A33",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D3257576B381D961121FA72950E1A0BB36821169" : "SkellyOC\/",
+    "833E8B9B11223C3EC7118D598E9554BC2DCFA1A0" : "SkellySwift\/",
+    "FFF1A923B495FB0B718EC072CBBB41F6B5494FAB" : "SkellyAndroid\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SkellySwift",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SkellySwift.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/frostyfx\/SkellySwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "833E8B9B11223C3EC7118D598E9554BC2DCFA1A0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/frostyfx\/SkellyOC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3257576B381D961121FA72950E1A0BB36821169"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/frostyfx\/SkellyAndroid.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FFF1A923B495FB0B718EC072CBBB41F6B5494FAB"
+    }
+  ]
+}

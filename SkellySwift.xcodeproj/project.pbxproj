@@ -10,10 +10,12 @@
 		B144791D1E3181200052ABB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144791C1E3181200052ABB2 /* AppDelegate.swift */; };
 		B144791F1E3181200052ABB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144791E1E3181200052ABB2 /* ViewController.swift */; };
 		B14479221E3181200052ABB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14479201E3181200052ABB2 /* Main.storyboard */; };
-		B14479241E3181200052ABB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B14479231E3181200052ABB2 /* Assets.xcassets */; };
 		B14479271E3181200052ABB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B14479251E3181200052ABB2 /* LaunchScreen.storyboard */; };
 		B14479321E3181200052ABB2 /* SkellySwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14479311E3181200052ABB2 /* SkellySwiftTests.swift */; };
 		B144793D1E3181200052ABB2 /* SkellySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144793C1E3181200052ABB2 /* SkellySwiftUITests.swift */; };
+		B14B88531EAFDA8400322DF4 /* SkellyArt in Resources */ = {isa = PBXBuildFile; fileRef = B14B88521EAFDA8400322DF4 /* SkellyArt */; };
+		B14B885B1EAFDB9C00322DF4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14B885A1EAFDB9C00322DF4 /* HomeViewController.swift */; };
+		B1FC50C61EAFF69400899E90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1FC50C51EAFF69400899E90 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		B144791C1E3181200052ABB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B144791E1E3181200052ABB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B14479211E3181200052ABB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B14479231E3181200052ABB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B14479261E3181200052ABB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B14479281E3181200052ABB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B144792D1E3181200052ABB2 /* SkellySwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkellySwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +48,9 @@
 		B14479381E3181200052ABB2 /* SkellySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkellySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B144793C1E3181200052ABB2 /* SkellySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkellySwiftUITests.swift; sourceTree = "<group>"; };
 		B144793E1E3181200052ABB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B14B88521EAFDA8400322DF4 /* SkellyArt */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SkellyArt; path = ../../SkellyArt; sourceTree = "<group>"; };
+		B14B885A1EAFDB9C00322DF4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B1FC50C51EAFF69400899E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +101,16 @@
 		B144791B1E3181200052ABB2 /* SkellySwift */ = {
 			isa = PBXGroup;
 			children = (
+				B14B88561EAFDB4B00322DF4 /* HomeView */,
+				B14B88571EAFDB6400322DF4 /* TableView */,
+				B14B88581EAFDB6A00322DF4 /* FormView */,
+				B14B88591EAFDB6F00322DF4 /* ScrollView */,
 				B144791C1E3181200052ABB2 /* AppDelegate.swift */,
 				B144791E1E3181200052ABB2 /* ViewController.swift */,
-				B14479201E3181200052ABB2 /* Main.storyboard */,
-				B14479231E3181200052ABB2 /* Assets.xcassets */,
 				B14479251E3181200052ABB2 /* LaunchScreen.storyboard */,
+				B14479201E3181200052ABB2 /* Main.storyboard */,
+				B1FC50C51EAFF69400899E90 /* Assets.xcassets */,
+				B14B88511EAFDA6D00322DF4 /* Images */,
 				B14479281E3181200052ABB2 /* Info.plist */,
 			);
 			path = SkellySwift;
@@ -123,6 +132,43 @@
 				B144793E1E3181200052ABB2 /* Info.plist */,
 			);
 			path = SkellySwiftUITests;
+			sourceTree = "<group>";
+		};
+		B14B88511EAFDA6D00322DF4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B14B88521EAFDA8400322DF4 /* SkellyArt */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		B14B88561EAFDB4B00322DF4 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				B14B885A1EAFDB9C00322DF4 /* HomeViewController.swift */,
+			);
+			name = HomeView;
+			sourceTree = "<group>";
+		};
+		B14B88571EAFDB6400322DF4 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		B14B88581EAFDB6A00322DF4 /* FormView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FormView;
+			sourceTree = "<group>";
+		};
+		B14B88591EAFDB6F00322DF4 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B14B88531EAFDA8400322DF4 /* SkellyArt in Resources */,
 				B14479271E3181200052ABB2 /* LaunchScreen.storyboard in Resources */,
-				B14479241E3181200052ABB2 /* Assets.xcassets in Resources */,
+				B1FC50C61EAFF69400899E90 /* Assets.xcassets in Resources */,
 				B14479221E3181200052ABB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +308,7 @@
 			files = (
 				B144791F1E3181200052ABB2 /* ViewController.swift in Sources */,
 				B144791D1E3181200052ABB2 /* AppDelegate.swift in Sources */,
+				B14B885B1EAFDB9C00322DF4 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +553,7 @@
 				B14479431E3181200052ABB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B14479441E3181200052ABB2 /* Build configuration list for PBXNativeTarget "SkellySwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +562,7 @@
 				B14479461E3181200052ABB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B14479471E3181200052ABB2 /* Build configuration list for PBXNativeTarget "SkellySwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +571,7 @@
 				B14479491E3181200052ABB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
