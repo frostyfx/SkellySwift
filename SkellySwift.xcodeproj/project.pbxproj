@@ -51,7 +51,7 @@
 		B14479381E3181200052ABB2 /* SkellySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkellySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B144793C1E3181200052ABB2 /* SkellySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkellySwiftUITests.swift; sourceTree = "<group>"; };
 		B144793E1E3181200052ABB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B14B88521EAFDA8400322DF4 /* SkellyArt */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SkellyArt; path = ../../SkellyArt; sourceTree = "<group>"; };
+		B14B88521EAFDA8400322DF4 /* SkellyArt */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SkellyArt; path = ../SkellyArt; sourceTree = "<group>"; };
 		B14B885A1EAFDB9C00322DF4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B1FC50C51EAFF69400899E90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1FC50C71EB0024A00899E90 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
